@@ -1,26 +1,28 @@
 body {
-  background-image: url(../img/concrete-texture.png);
+  font-family: 'Open Sans', sans-serif;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e8e8e8+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#e8e8e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+
 }
 
 .text-holder {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
-  height: 100vh;
-  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.text-holder__text {
+.text-holder__text--secondary {
+  font-size: 30px;
   width: 100%;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-
-  color: rgba(255, 255, 255, 0.01);
-  font-size: 100px;
-  text-shadow: 1px 2px 4px #ffffff80, 0px 0px 0px #00000075, 0px 0px 2px white;
-  margin: 10px 0;
+  color: #444;
 }
-.text-holder__text--secondary {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
+
+.text-holder__img {
+  height: 190px;
 }
